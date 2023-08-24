@@ -44,7 +44,7 @@ else:
 
 # MENU DESPLEGABLE
 st.subheader("Selectbox")
-in_mond = st.selectbox(
+in_mod = st.selectbox(
   "Selecciona la modalidad",("Audio","Visual","Háptico")
   )
 if in_mod == "Audio":
