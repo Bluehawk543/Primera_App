@@ -55,4 +55,10 @@ elif in_mod == "Háptico":
   set_mod = "Reproducir vibración"
 st.write("La acción es:", set_mod)
 
+# BARRA LATERAL
+st.subheader("Configura la modalidad")
+mod_radio = st.radio(
+  "Escoge la modalidad a usar",
+  ("Visual","Auditiva","Háptica")
+)
 
